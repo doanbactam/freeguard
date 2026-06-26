@@ -1,0 +1,34 @@
+{
+  "name": "freeguard",
+  "version": "0.1.0",
+  "description": "Open-source free-tier abuse guard for AI SaaS.",
+  "type": "module",
+  "main": "./src/index.cjs",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "require": "./src/index.cjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "demo": "node demo/server.cjs",
+    "test": "node test/freeguard.test.js"
+  },
+  "keywords": [
+    "abuse",
+    "ai",
+    "credits",
+    "free-tier",
+    "fraud",
+    "saas"
+  ],
+  "license": "MIT"
+}
